@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.menhera.campus_wifi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="org.menhera.campus_wifi.ui.list.AccessPointsListFragment"
+        android:label="@string/menu_list" />
+
+    <activity
+        android:id="@+id/nav_about_app"
+        android:name="org.menhera.campus_wifi.AboutActivity"
+        android:label="" />
+
+    <activity
+        android:id="@+id/nav_settings"
+        android:name="org.menhera.campus_wifi.SettingsActivity"
+        android:label="@string/menu_settings" />
+
+</navigation>
