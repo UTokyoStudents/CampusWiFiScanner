@@ -28,7 +28,7 @@
     <string name="pref_wifi_ssid_secondary">Secondary SSID to scan</string>
 
     <string name="pref_wifi_all">Display all found APs</string>
-    <string name="pref_wifi_all_description">This does not affect the collected data.</string>
+    <string name="pref_wifi_all_description">This does not affect the collected data. In all cases only the APs with the selected SSID(s) are recorded.</string>
 
     <string name="pref_title_collection">Data collection</string>
     <string name="pref_collection_enabled">Enable data collection</string>

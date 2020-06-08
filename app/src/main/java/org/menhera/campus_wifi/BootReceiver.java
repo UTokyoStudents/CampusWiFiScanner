@@ -20,7 +20,7 @@ public class BootReceiver extends BroadcastReceiver {
             return;
         }
 
-        if(intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)){
+        if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)){
             application = (CampusWiFiApplication) context.getApplicationContext();
             boolean started = application.isServiceStarted();
             Log.d(BootReceiver.class.getSimpleName(), "Service started on boot: " + started);
